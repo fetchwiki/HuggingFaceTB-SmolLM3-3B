@@ -1,0 +1,25 @@
+{
+  "model_info": {
+    "architecture": "SmolLM3ForCausalLM",
+    "model_type": "smollm3",
+    "vocab_size": 128256,
+    "hidden_size": 2048,
+    "num_layers": 36,
+    "num_attention_heads": 16
+  },
+  "model_files": [
+    {
+      "name": "model-00001-of-00002.safetensors",
+      "size": 4966315264,
+      "size_formatted": "4GB"
+    },
+    {
+      "name": "model-00002-of-00002.safetensors",
+      "size": 1183919744,
+      "size_formatted": "1GB"
+    }
+  ],
+  "total_count": 2,
+  "source_url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+  "generated_at": "2025-07-14T14:41:31Z"
+}
