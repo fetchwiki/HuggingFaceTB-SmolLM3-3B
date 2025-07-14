@@ -1,25 +1,114 @@
 {
   "model_info": {
+    "name": "HuggingFaceTB/SmolLM3-3B",
     "architecture": "SmolLM3ForCausalLM",
     "model_type": "smollm3",
     "vocab_size": 128256,
     "hidden_size": 2048,
     "num_layers": 36,
-    "num_attention_heads": 16
+    "num_attention_heads": 16,
+    "max_position_embeddings": 65536,
+    "license": null,
+    "language": null,
+    "pipeline_tag": null
+  },
+  "repository_info": {
+    "source_url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+    "downloads": 0,
+    "likes": 0,
+    "created_at": null,
+    "last_modified": null,
+    "description": "HuggingFace model: HuggingFaceTB/SmolLM3-3B"
   },
   "model_files": [
     {
       "name": "model-00001-of-00002.safetensors",
       "size": 4966315264,
-      "size_formatted": "4GB"
+      "size_formatted": "4GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 258,
+      "sample_tensors": "    - model.embed_tokens.weight: shape=[128256,2048], dtype=BF16\n    - model.layers.0.input_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.mlp.down_proj.weight: shape=[2048,11008], dtype=BF16\n    - model.layers.0.mlp.gate_proj.weight: shape=[11008,2048], dtype=BF16\n    - model.layers.0.mlp.up_proj.weight: shape=[11008,2048], dtype=BF16"
     },
     {
       "name": "model-00002-of-00002.safetensors",
       "size": 1183919744,
-      "size_formatted": "1GB"
+      "size_formatted": "1GB",
+      "type": "safetensors",
+      "isLFS": true,
+      "tensor_count": 68,
+      "sample_tensors": "    - model.layers.28.input_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.28.mlp.down_proj.weight: shape=[2048,11008], dtype=BF16\n    - model.layers.28.mlp.up_proj.weight: shape=[11008,2048], dtype=BF16\n    - model.layers.28.post_attention_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.29.input_layernorm.weight: shape=[2048], dtype=BF16"
     }
   ],
+  "file_summary": {
+    "total_files": 12,
+    "model_files_count": 2,
+    "total_size": 6167864026,
+    "total_size_formatted": "5.74GB",
+    "file_types": {
+      "gitattributes": 1,
+      "md": 1,
+      "jinja": 1,
+      "json": 6,
+      "safetensors": 2,
+      "ipynb": 1
+    }
+  },
+  "extracted_metadata": {
+    "modelFiles": [
+      {
+        "name": "model-00001-of-00002.safetensors",
+        "size": 4966315264,
+        "size_formatted": "4GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 258,
+        "sample_tensors": "    - model.embed_tokens.weight: shape=[128256,2048], dtype=BF16\n    - model.layers.0.input_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.0.mlp.down_proj.weight: shape=[2048,11008], dtype=BF16\n    - model.layers.0.mlp.gate_proj.weight: shape=[11008,2048], dtype=BF16\n    - model.layers.0.mlp.up_proj.weight: shape=[11008,2048], dtype=BF16"
+      },
+      {
+        "name": "model-00002-of-00002.safetensors",
+        "size": 1183919744,
+        "size_formatted": "1GB",
+        "type": "safetensors",
+        "isLFS": true,
+        "tensor_count": 68,
+        "sample_tensors": "    - model.layers.28.input_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.28.mlp.down_proj.weight: shape=[2048,11008], dtype=BF16\n    - model.layers.28.mlp.up_proj.weight: shape=[11008,2048], dtype=BF16\n    - model.layers.28.post_attention_layernorm.weight: shape=[2048], dtype=BF16\n    - model.layers.29.input_layernorm.weight: shape=[2048], dtype=BF16"
+      }
+    ],
+    "configFiles": [
+      {
+        "name": "config.json",
+        "size": 1884,
+        "size_formatted": "1KB"
+      },
+      {
+        "name": "special_tokens_map.json",
+        "size": 289,
+        "size_formatted": "289B"
+      },
+      {
+        "name": "tokenizer.json",
+        "size": 17208819,
+        "size_formatted": "16MB"
+      },
+      {
+        "name": "tokenizer_config.json",
+        "size": 50387,
+        "size_formatted": "49KB"
+      }
+    ],
+    "totalSize": 6167864026,
+    "totalCount": 2,
+    "fileTypes": {
+      "": 1,
+      ".md": 1,
+      ".jinja": 1,
+      ".json": 6,
+      ".safetensors": 2,
+      ".ipynb": 1
+    }
+  },
   "total_count": 2,
   "source_url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
-  "generated_at": "2025-07-14T14:41:31Z"
+  "generated_at": "2025-07-14T22:09:24.366Z"
 }
